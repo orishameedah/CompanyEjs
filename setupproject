@@ -1,0 +1,22 @@
+- firstly we created a project named companyejs project in our file explorer 
+- we open a  new window to open the new folder when created 
+- open a new terminal to generate a package.json 
+- to generate our package.json file we have two ways 
+    *C:\companyejsproject>npm init  (but it really takes time)
+    *C:\companyejsproject>npm init -y (but this is a very fast shortcut to generate our package.json)
+
+Installing the needed dependencies for our application 
+We need to install express (which is a backend web framework use for building of our application )
+- Functionalities is mainly use for the request and response of our server which is express
+By installing this 
+C:\companyejsproject>npm install express@4.18.2
+
+Our next dependency will be nodemon
+installing like this
+C:\companyejsproject>npm install -D nodemon@2.0.20
+
+Difference between Node and Nodemon
+We use it in alternative of node (due to the fact that it watches for every changes we make for each milliseconds)
+
+Similarities between node and nodemon
+They both are for runtime execution 
